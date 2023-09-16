@@ -2,7 +2,6 @@
   "name": "goit-react-hw-05-movies",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://anisoara1.github.io/goit-react-hw-05-movies/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
@@ -36,5 +35,12 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.16.0"
+  },
+  "description": "Acest proiect a fost creat cu ajutorul\r [Create React App](https://github.com/facebook/create-react-app). Pentru prezentări\r și configurarea de funcții suplimentare\r [consultați documentația](https://facebook.github.io/create-react-app/docs/getting-started).",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
