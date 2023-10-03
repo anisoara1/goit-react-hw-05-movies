@@ -13,7 +13,7 @@ const Movies = () => {
   const [searchParam] = useSearchParams();
   const query = searchParam.get('searchQuery');
 
-  //Виконуємо запит при кожній зміні query
+  //Execută interogarea de fiecare dată când interogarea se modifică
   useEffect(() => {
     if (!query) return;
     const fetchData = async () => {
